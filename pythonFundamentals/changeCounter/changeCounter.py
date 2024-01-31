@@ -14,6 +14,4 @@ pennies = eval(input("Pennies: "))
 inputPennies = pennies * 0.01
 
 change = inputQuarters + inputDimes + inputNickels + inputPennies
-print("The total value of your chane is: $",change) 
-
-
+print("The total value of your chane is: $", change)
