@@ -42,5 +42,5 @@ def sub(a1, b1):
 
 n1, n2 = sub(number1, number2)
 
-print("Multiple: ", n1)
+print("Multiples: ", n1)
 print("Division: ", n2)
