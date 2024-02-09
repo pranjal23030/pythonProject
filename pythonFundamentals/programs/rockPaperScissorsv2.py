@@ -6,11 +6,11 @@ player2 = "Computer"
 
 
 def play_game(player1, player2):
-    winner1 = player1 + " wins"
-    winner2 = player2 + " wins"
-
     player1_choice = input(f"Enter your choice {player1}: ").lower()
     player2_choice = random.choice(['rock', 'scissors', 'paper'])
+
+    winner1 = player1 + " wins"
+    winner2 = player2 + " wins"
 
     if player1_choice == player2_choice:
         return "Tie"
