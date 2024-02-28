@@ -11,4 +11,5 @@ def main():
     else:
         print(eutaCharacter[0] + " is a special character")
 
+
 main()
