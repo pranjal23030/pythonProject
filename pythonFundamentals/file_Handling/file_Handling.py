@@ -15,11 +15,63 @@
 # print("Done with writing")
 # fout.close()
 
-# Reading a file
+#######################################################################################
 
-fread = open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\reading.txt', 'r')
+# New Style
 
-for line in fread:
-    print(line.rstrip())
+# with open('output.txt', 'w') as f:
+#     line1 = "Hello, Pranjal. \n"
+#     f.write(line1)
+#
+#     line2 = "Another one. \n"
+#     f.write(line2)
 
-fread.close()
+###########################################################################################################
+
+# # Reading a file
+
+# fread = open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\reading.txt', 'r')
+
+# for line in fread:
+#     print(line)
+#
+# fread.close()
+
+###########################################################################################################
+# New Style
+
+with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\reading.txt',
+          'r') as fread:
+    # print(fread.name)
+    # print(fread.mode)
+    print()
+    # txt = fread.read(22)
+    txt1 = fread.readline()
+    print(txt1)
+
+################################################################################################################
+# Strip method
+#
+# s = "          hello world              "
+# print(s.lstrip())
+# print(s.rstrip())
+# print(s.strip())
+
+#############################################################################################################
+# Appending to a file
+
+# f = open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\kohli.txt', 'a')
+# line = "I like to watch kohli bat."
+# line1 = "test line"
+# f.write('\n' + line)
+# f.close()
+
+# New style
+
+# with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\ipl.txt', 'a') as f:
+#     line = "I am eagerly waiting for the IPL."
+#     f.write("\n" + line)
+#     print(f)
+
+#############################################################################################
+
