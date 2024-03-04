@@ -5,7 +5,7 @@
 # fout = open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\output.txt', 'w')
 # print(fout)
 #
-# line1 = "Hey, Pranjal!! \n"
+# line1 = "Hey!! \n"
 # fout.write(line1)
 # line2 = "How are you. \n"
 # fout.write(line2)
@@ -14,8 +14,6 @@
 #
 # print("Done with writing")
 # fout.close()
-
-#######################################################################################
 
 # New Style
 
@@ -28,41 +26,41 @@
 
 ###########################################################################################################
 
-# # Reading a file
+# Reading a file
 
 # fread = open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\reading.txt', 'r')
-
+#
 # for line in fread:
 #     print(line)
 #
 # fread.close()
 
-###########################################################################################################
 # New Style
 
-with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\reading.txt',
-          'r') as fread:
-    # print(fread.name)
-    # print(fread.mode)
-    print()
-    # txt = fread.read(22)
-    txt1 = fread.readline()
-    print(txt1)
+# with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\reading.txt',
+#           'r') as fread:
+#     # print(fread.name)
+#     # print(fread.mode)
+#     print()
+#     # txt = fread.read(22)
+#     txt1 = fread.readline()
+#     print(txt1)
 
 ################################################################################################################
+
 # Strip method
-#
+
 # s = "          hello world              "
 # print(s.lstrip())
 # print(s.rstrip())
 # print(s.strip())
 
 #############################################################################################################
+
 # Appending to a file
 
 # f = open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\kohli.txt', 'a')
-# line = "I like to watch kohli bat."
-# line1 = "test line"
+# line = "I like kohli's bat."
 # f.write('\n' + line)
 # f.close()
 
@@ -72,6 +70,4 @@ with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\
 #     line = "I am eagerly waiting for the IPL."
 #     f.write("\n" + line)
 #     print(f)
-
-#############################################################################################
 
