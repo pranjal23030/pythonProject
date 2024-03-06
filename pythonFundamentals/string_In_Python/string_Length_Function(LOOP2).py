@@ -1,4 +1,4 @@
-word = 'pranjal'
+word = 'sum_of_Positive_Integers'
 
 # 1st way
 

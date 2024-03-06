@@ -1,11 +1,11 @@
-test = "pranjal " + "khatiwada"
+test = "sum_of_Positive_Integers " + "khatiwada"
 
 print(test + "\n")
 
-test1 = "pranjal " * 3
+test1 = "sum_of_Positive_Integers " * 3
 
 print(test1 + "\n")
 
-test2 = "pranjal " + "khatiwada"
+test2 = "sum_of_Positive_Integers " + "khatiwada"
 
 print(test2)

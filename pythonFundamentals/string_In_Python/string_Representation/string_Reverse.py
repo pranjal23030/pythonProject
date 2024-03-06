@@ -6,11 +6,11 @@
 
 
 # s = 'apple'
-#
+# 
 # reverse_str = ""
 # for i in range(len(s) - 1, -1, -1):
 #     reverse_str = reverse_str + s[i]
-#
+# 
 # print(reverse_str)
 
 

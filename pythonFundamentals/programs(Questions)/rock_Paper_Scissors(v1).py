@@ -1,12 +1,11 @@
-print("\t\t\t\t\t\t\t\t  ROCK, PAPER AND SCISSORS\n")
-
+print(" ROCK, PAPER AND SCISSORS \n")
 player1 = input("Enter your name: ")
 player2 = input("Enter your name: ")
 print()
 
 while True:
-    choice1 = input(f" {player1}, Enter your choice: ")[0].lower()
-    choice2 = input(f" {player2}, Enter your choice: ")[0].lower()
+    choice1 = input(f"{player1}, Enter your choice: ")[0].lower()
+    choice2 = input(f"{player2}, Enter your choice: ")[0].lower()
 
     if choice1 == choice2:
         print("It's a draw!!! ")
@@ -32,7 +31,8 @@ while True:
     else:
         print("Invalid input")
 
-    play_again = input("Do your want to play again(y/n): ")[0].lower()
+    play_again = input("Do you want to play again (y/n): ")[0].lower()
 
-    if play_again != "Y":
+    if play_again != "y":
         break
+

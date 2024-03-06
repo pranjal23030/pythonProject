@@ -3,7 +3,7 @@
 
 
 birthdays = {
-    "ram": ["12-18-1987", "pranjal", 12],
+    "ram": ["12-18-1987", "sum_of_Positive_Integers", 12],
     "sita": "7-6-2003",
     "john": "11-5-1992",
     "rita": "5-4-2001"
@@ -38,7 +38,7 @@ for name, dob in birthdays.items():
 print()
 
 # add one item
-birthdays["pranjal"] = "09-02-2005"
+birthdays["sum_of_Positive_Integers"] = "09-02-2005"
 print(birthdays)
 print()
 

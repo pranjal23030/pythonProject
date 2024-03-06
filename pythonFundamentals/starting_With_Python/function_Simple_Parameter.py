@@ -2,4 +2,4 @@ def hello(person):
     print("Hello ", person)
     print(2 + 3)
 
-hello("pranjal")
+hello("sum_of_Positive_Integers")
