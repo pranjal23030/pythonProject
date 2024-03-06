@@ -1,5 +1,6 @@
 import random
 
+
 class Card:
     suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
     ranks = ["Ace", "2", "3", "4", "5", "6", "7", "8",
@@ -10,27 +11,20 @@ class Card:
         self.rank = rank
 
     def __str__(self):
-        #return f"{self.rank} of {self.suit}"
+        # return f"{self.rank} of {self.suit}"
         return f"{Card.ranks[self.rank]} of {Card.suits[self.suit]}"
-
-
-
-
-
-
-
 
 
 class Deck:
     def __init__(self):
         self.cards = []
         self.update()
-        #self.shuffle()
+        # self.shuffle()
 
     def update(self):
-##        for suit in Card.suits:
-##            for rank in Card.ranks:
-##                self.cards.append(Card(suit, rank))
+        ##        for suit in Card.suits:
+        ##            for rank in Card.ranks:
+        ##                self.cards.append(Card(suit, rank))
         for suit in range(4):
             for rank in range(13):
                 self.cards.append(Card(suit, rank))
@@ -45,11 +39,9 @@ class Deck:
 
         return output
 
+
 d = Deck()
 print(d)
-    
+
 ##c = Card()
 ##print(c)
-
-
-

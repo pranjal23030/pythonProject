@@ -1,4 +1,5 @@
-from math import sqrt 
+from math import sqrt
+
 
 class Point:
     def __init__(self, x, y):
@@ -12,7 +13,7 @@ class Point:
         return self.y
 
     def distance_from_origin(self):
-        return sqrt(self.x**2 + self.y**2)
+        return sqrt(self.x ** 2 + self.y ** 2)
 
     def __str__(self):
         return f"Point(x={self.x}, y={self.y})"
@@ -20,13 +21,13 @@ class Point:
     def distance(self, other):
         x_diff = self.get_x() - other.get_x()
         y_diff = self.get_y() - other.get_y()
-        d = sqrt(x_diff**2 + y_diff**2)
+        d = sqrt(x_diff ** 2 + y_diff ** 2)
 
-        return d 
+        return d
+
 
 p = Point(1, 1)
 q = Point(2, 2)
 
 print(p)
 print(p.distance(q))
-

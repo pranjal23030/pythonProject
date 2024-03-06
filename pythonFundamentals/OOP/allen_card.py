@@ -10,8 +10,8 @@ class Card(object):
     """
 
     suit_names = ["Clubs", "Diamonds", "Hearts", "Spades"]
-    rank_names = [None, "Ace", "2", "3", "4", "5", "6", "7", 
-              "8", "9", "10", "Jack", "Queen", "King"]
+    rank_names = [None, "Ace", "2", "3", "4", "5", "6", "7",
+                  "8", "9", "10", "Jack", "Queen", "King"]
 
     def __init__(self, suit=0, rank=2):
         self.suit = suit
@@ -30,7 +30,7 @@ class Card(object):
         """
         t1 = self.suit, self.rank
         t2 = other.suit, other.rank
-        return t1>t2
+        return t1 > t2
 
 
 class Deck(object):
@@ -39,7 +39,7 @@ class Deck(object):
     Attributes:
       cards: list of Card objects.
     """
-    
+
     def __init__(self):
         self.cards = []
         for suit in range(4):
@@ -86,10 +86,9 @@ class Deck(object):
             hand.add_card(self.pop_card())
 
 
-
 class Hand(Deck):
     """Represents a hand of playing cards."""
-    
+
     def __init__(self, label=''):
         self.cards = []
         self.label = label
@@ -102,11 +101,11 @@ if __name__ == '__main__':
     pradeep = Hand()
     nipesh = Hand()
     aashik = Hand()
-    
+
     deck.move_cards(pradeep, 3)
     deck.move_cards(nipesh, 3)
     deck.move_cards(aashik, 3)
-    
+
     pradeep.sort()
     nipesh.sort()
     aashik.sort()
@@ -117,4 +116,3 @@ if __name__ == '__main__':
     print(nipesh)
     print("\nAAshik Hand")
     print(aashik)
-    

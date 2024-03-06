@@ -1,31 +1,30 @@
 class Book:
-    "fields: title, author, year, price"
-    
+    """fields: title, author, year, price"""
+
     # constructor with arguments
     def __init__(self, title, author, year, price):
         self.title = title
         self.author = author
         self.year = year
         self.price = price
-        
+
     # returns details of Book object as a string
     def __str__(self):
-        return "{0} ({1}) by {2} costs {3:1.2f}".format( \
-        self.title, self.year, self.author, self.price)
+        return "{0} ({1}) by {2} costs {3:1.2f}".format(self.title, self.year, self.author, self.price)
 
     # setter methods
     def setTitle(self, newTitle):
         self.title = newTitle
-    
+
     def setAuthor(self, newAuthor):
         self.author = newAuthor
-    
+
     def setYear(self, newYear):
         self.year = newYear
-    
+
     def setPrice(self, newPrice):
         self.price = newPrice
-    
+
     # getter methods
     def getTitle(self):
         return self.title
@@ -40,6 +39,8 @@ class Book:
         return self.price
 
     # test for equality, only 3 attributes are used here: title,
+
+
 ##    # author, year
 ##    def __eq__(self, other):
 ##        return self.getTitle().upper() == other.getTitle().upper() and \
@@ -64,7 +65,6 @@ n1 = 10
 n2 = 10
 print(id(n1))
 print(id(n2))
-
 
 ##b1 = Book(title="Python", author="Guido", year=2012, price=1000.00)
 ##b2 = Book(title="Python", author="Guido", year=2012, price=1000.00)

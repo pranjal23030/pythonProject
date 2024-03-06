@@ -14,13 +14,13 @@ class Time:
     def is_valid(self):
         if self.hh < 0 or self.mm < 0 or self.ss < 0:
             return False
-        
+
         if self.hh > 23 or self.mm >= 60 or self.ss >= 60:
             return False
 
         return True
 
-    def increment(self, seconds):    
+    def increment(self, seconds):
         minutes, seconds = divmod(seconds, 60)
         hours, minutes = divmod(minutes, 60)
         hours = hours % 24
@@ -34,27 +34,28 @@ class Time:
             raise ValueError("Invalid time was entered")
 
         seconds = self.to_seconds() + other.to_seconds()
-        
+
         minutes, seconds = divmod(seconds, 60)
         hours, minutes = divmod(minutes, 60)
         hours = hours % 24
 
         t = Time(hours, minutes, seconds)
         return t
-        
 
     def __str__(self):
-        #return "%.2d:%.2d:%.2d"%(self.hh, self.mm, self.ss)
+        # return "%.2d:%.2d:%.2d"%(self.hh, self.mm, self.ss)
         return f"{self.hh:02}:{self.mm:02}:{self.ss:02}"
 
 
 def main():
-    t = Time(1,2)
+    t = Time(1, 2)
 
     print(t)
     t.increment(100)
     print(t)
-   #start = Time(9, 45)
+
+
+# start = Time(9, 45)
 ##   end = Time(10, 7, 17)
 ####   print(t.is_valid())
 ####
@@ -65,6 +66,6 @@ def main():
 ##
 ##   
 
-    
+
 if __name__ == '__main__':
     main()
