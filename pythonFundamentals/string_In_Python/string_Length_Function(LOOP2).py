@@ -15,5 +15,5 @@ word = 'sum_of_Positive_Integers'
 
 # 3rd way
 
-for i in range(len(word)):
-    print(word[i], end=" ")
+# for i in range(len(word)):
+#     print(word[i], end=" ")

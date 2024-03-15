@@ -1,8 +1,9 @@
-outer_out = 5
+outer = 5
 
 
 def total():
     inner_in = 4
+    # global outer
     # global outer
     outer = 7
     return inner_in + outer
@@ -10,4 +11,4 @@ def total():
 
 inner = total()
 print("Inner: ", inner)
-print("Outer: ", outer_out)
+print("Outer: ", outer)

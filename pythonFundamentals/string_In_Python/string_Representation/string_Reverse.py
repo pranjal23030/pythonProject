@@ -14,10 +14,8 @@
 # print(reverse_str)
 
 
-s = "apple"
-
-reverse_str = ""
+s = 'apple'
+reversed_str = ""
 for i in s:
-    reverse_str = i + reverse_str
-
-print(reverse_str)
+    reversed_str = i + reversed_str
+print(reversed_str)

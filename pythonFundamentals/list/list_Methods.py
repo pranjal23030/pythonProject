@@ -68,9 +68,9 @@ numbers = [10, 22, 32, 64, 128, 256, 323]
 
 # List addition
 
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
-
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
+#
 # list3 = list1 + list2
 # print("List3 : ", list3)
 
@@ -95,7 +95,7 @@ list2 = [4, 5, 6]
 
 # List and Strings
 
-# s = "apple"
+# s = "apple-banana"
 # print(type(s))
 #
 # l = list(s)
@@ -103,7 +103,7 @@ list2 = [4, 5, 6]
 #
 # print("S is: ", s)
 # print("L is: ", l)
-# print("Split list: ", s.split())
+# print("Split list: ", s.split("-"))
 
 ######################################################
 

@@ -15,4 +15,4 @@ def pattern_generator(n, pattern):
         print("\n")
 
 
-pattern_generator(5, "%")
+pattern_generator(5, "#")

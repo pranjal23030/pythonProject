@@ -1,5 +1,8 @@
 def hello(person):
-    print("Hello ", person)
-    print(2 + 3)
+    """Returns name of the person
+    Usages:
+    >>> hello("John")
+    hello  John
+    """
+    print("hello ", person)
 
-hello("sum_of_Positive_Integers")

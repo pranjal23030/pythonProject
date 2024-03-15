@@ -43,8 +43,8 @@
 #     # print(fread.mode)
 #     print()
 #     # txt = fread.read(22)
-#     txt1 = fread.readline()
-#     print(txt1)
+#     txt1 = fread
+#     print(fread.read())
 
 ################################################################################################################
 
@@ -66,8 +66,7 @@
 
 # New style
 
-# with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\ipl.txt', 'a') as f:
-#     line = "I am eagerly waiting for the IPL."
-#     f.write("\n" + line)
-#     print(f)
+with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\ipl.txt', 'a') as f:
+    line = "I am eagerly waiting for the."
+    f.write("\n" + line)
 

@@ -9,3 +9,4 @@ for ch in word:
         d[ch] = d[ch] + 1
 
 print(d)
+

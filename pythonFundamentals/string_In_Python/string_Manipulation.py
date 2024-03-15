@@ -1,8 +1,8 @@
-greet = "Hello Bob"
-meet = "123"
-
-# Indexing
-
+# greet = "Hello Bob"
+# meet = "123"
+#
+# # Indexing
+#
 # print(greet[0])
 #
 # print(meet[0])
@@ -24,4 +24,4 @@ print(name[:5])    # 0 देखि 4 सम्म
 
 print(name[5:])
 
-print(name[:])
+print(name[::])

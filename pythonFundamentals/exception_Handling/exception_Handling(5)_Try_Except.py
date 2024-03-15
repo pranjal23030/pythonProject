@@ -14,5 +14,8 @@ def main():
     except ValueError:
         print("\n No real roots")
 
+    except ZeroDivisionError:
+        print("\nDividing by zero")
+
 
 main()
