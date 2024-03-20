@@ -1,10 +1,11 @@
 def main():
-    n = eval(input("How many numbers do you have? "))
-    total = 0.0
+    print("This program find the average of the given number by using for loop")
+    sum = 0.0
+    n = eval(input("How many numbers: "))
     for i in range(n):
-        x = eval(input("Enter a number>> "))
-        total = total + x
-    print("\nThe average of the numbers is", total / n)
+        num_count = eval(input("Number: "))
+        sum += num_count
+    print("Average", sum / n)
 
 
 main()

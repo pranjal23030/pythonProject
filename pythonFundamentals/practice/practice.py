@@ -15,17 +15,11 @@
 #     output = f"The factorial of {n} is {total}"
 #     return output
 
+s = "apple orange grapes cat"
+l = s.split()
+print(l)
+print(len(l))
 
-#####################################################################
-
-num = int(input("Number till: "))
-
-
-def find_sum(n):
-    total = 0
-    for i in range(1, n + 1):
-        total = total + i
-    print(total)
-
-
-find_sum(num)
+l_new = s.split(",")
+print(l_new)
+print(len(l_new))

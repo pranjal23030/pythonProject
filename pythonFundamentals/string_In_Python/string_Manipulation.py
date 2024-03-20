@@ -13,15 +13,17 @@
 
 # Slice
 
-name = input('Hello, what is your name: ')
+name = "pranjal"
 print("Hello", name)
 
 print(name[0:3])
 
-print(name[5:12])  # 5 देखि 11 सम्म
+print(name[5:12])
 
-print(name[:5])    # 0 देखि 4 सम्म
+print(name[:5])
 
 print(name[5:])
 
-print(name[::])
+print(name[::-1])
+
+

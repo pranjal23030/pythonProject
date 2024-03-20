@@ -11,11 +11,11 @@ def main():
         root2 = (-b - disc_root) / (2 / a)
         print("\n The solutions are: ", root1, root2)
 
-    except ValueError:
-        print("\n No real roots")
+    except ValueError as e:
+        print(e)
 
-    except ZeroDivisionError:
-        print("\nDividing by zero")
+    except ZeroDivisionError as e:
+        print(e)
 
 
 main()

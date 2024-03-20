@@ -67,6 +67,6 @@
 # New style
 
 with open('C:\\Users\\Dell\\PycharmProjects\\pythonProject\\pythonFundamentals\\file_Handling\\ipl.txt', 'a') as f:
-    line = "I am eagerly waiting for the."
+    line = "What do you mean?"
     f.write("\n" + line)
 

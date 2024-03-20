@@ -1,5 +1,5 @@
 def hello(person):
-    """Returns name of the person
+    """ Returns name of the person
     Usages:
     >>> hello("John")
     hello  John

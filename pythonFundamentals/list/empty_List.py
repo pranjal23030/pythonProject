@@ -8,12 +8,11 @@
 #
 # print(container)
 
-
-khali = []
-num = 2
+khali_list = []
+num = 0
 
 while num < 10:
     if num < 5:
-        khali.append(num)
-    num = num + 1
-print(khali)
+        khali_list.append(num)
+    num += 1
+print(khali_list)

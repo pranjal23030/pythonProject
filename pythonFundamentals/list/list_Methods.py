@@ -1,4 +1,26 @@
-numbers = [10, 22, 32, 64, 128, 256, 323]
+numbers = [10, 22, 32, 64, 128, 256, 323, 44]
+# print(len(numbers))
+# print(numbers.index(32))
+# numbers.insert(7, 7)
+# print(numbers)
+# print(numbers.reverse())
+# print(sum(numbers))
+
+# for num in numbers:
+#     print(num, end=' ')
+
+# Copying lists
+
+# list1 = [1,2,3,4]
+# list2 = []
+# for each_item in list1:
+#     list2.append(each_item)
+# print(list2)
+# list2 = [item for item in list1]
+# list3 = [item ** 2 for item in list1]
+# print(list2)
+# print(list3)
+
 
 # print(numbers[-1])
 # print("List: ", numbers)
@@ -32,7 +54,7 @@ numbers = [10, 22, 32, 64, 128, 256, 323]
 ################################################
 
 # Empty lists
-
+#
 # l = []
 # print(l)
 # l.append("Pranjal")
@@ -43,7 +65,7 @@ numbers = [10, 22, 32, 64, 128, 256, 323]
 ################################################
 
 # POP methods
-
+#
 # print("Before popping out: ", numbers)
 # print("POP: ", numbers.pop(0))
 # print("After popping out: ", numbers)
@@ -70,20 +92,19 @@ numbers = [10, 22, 32, 64, 128, 256, 323]
 
 # list1 = [1, 2, 3]
 # list2 = [4, 5, 6]
-#
 # list3 = list1 + list2
-# print("List3 : ", list3)
+# print(list3)
 
 ###################################################
 
 # List append
-
+#
 # print("List1 before append: ", list1)
 # list1.append(list2)
 # print("List1 after append: ", list1)
 # print(list1[0])
 # print(list1[3])
-#
+# #
 # print(list1[3][1])
 
 #####################################################
@@ -105,24 +126,27 @@ numbers = [10, 22, 32, 64, 128, 256, 323]
 # print("L is: ", l)
 # print("Split list: ", s.split("-"))
 
+# string = "pranjal Khatiwada"
+# print(string)
+# list_making = list(string)
+# print(list_making)
+# print(''.join(list_making))
+# print("Split list: ", string.split())
+
 ######################################################
 
 # String lists split
 
-# s = "blowing-in the wind"
+# s = "pranjal hari sabin"
 # l = list(s)
+# print(s.split())
+# print(len(s.split()))
 # print(l)
-#
-# l = s.split()  # je bhettincha tyai bata kattincha by default space hercha
-# print(l)
-# print(len(l))
 
 ######################################################
 
-l = ["rato", "tika", "nidhar", "ma"]
-print(l)
-print("L is of type: ", type(l))
-
-s = " ".join(l)
-print(s)
-print("s is of type: ", type(s))
+# name = ["pranjal", "is", "my", "name"]
+# print("Name: ", name, type(name))
+#
+# name_str = " ".join(name)
+# print("String name: ", name_str, type(name_str))

@@ -2,34 +2,30 @@
 # EXAMPLE: combinations of print and return
 #########################
 
-# def is_even_with_return(i):
-#     """
-#    Input: i, a positive int
-#    Returns True if i is even, otherwise False
-#
-#    >>> is_even_with_return(3)
-#    False
-#    >>> is_even_with_return(2)
-#    True
-#    """
-#     remainder = i % 2
-#     return remainder == 0
+def is_even_with_return(i):
+    """
+   Input: i, a positive int
+   Returns True if i is even, otherwise False
+
+   """
+    remainder = i % 2
+    return remainder == 0
 
 
-# print(is_even_with_return(3))
+print(is_even_with_return(3))
 
 
-# def is_even_without_return(i):
-#     """
-#     Input: i, a positive int
-#     Does not return anything
-#     """
-#     print('without return')
-#     remainder = i % 2
-#
-#
-# is_even_without_return(3)
-# print(is_even_without_return(3))
+def is_even_without_return(i):
+    """
+    Input: i, a positive int
+    Does not return anything
+    """
+    print('without return')
+    remainder = i % 2
+
+
+is_even_without_return(3)
+print(is_even_without_return(3))
 
 
 # Simple is_even function definition
@@ -148,16 +144,16 @@
 # ## EXAMPLE: complicated scope, test yourself!
 # #########################
 
-def f(x):
-    x = x + 1
-    print('in f(x): x =', x)
-    return x
-
-
-x = 3
-z = f(x)
-print('in main program scope: z =', z)
-print('in main program scope: x =', x)
+# def f(x):
+#     x = x + 1
+#     print('in f(x): x =', x)
+#     return x
+#
+#
+# x = 3
+# z = f(x)
+# print('in main program scope: z =', z)
+# print('in main program scope: x =', x)
 
 
 # def g(x):
