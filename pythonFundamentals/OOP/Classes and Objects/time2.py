@@ -1,5 +1,4 @@
 
-
 class Time(object):
     """Represents the time of day.
        

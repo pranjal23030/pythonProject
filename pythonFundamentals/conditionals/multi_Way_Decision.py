@@ -1,15 +1,15 @@
+_char = input("Enter character: ")
+
+
 def main():
-    character = input("Enter any character: ")
-    print("You have entered ", character)
+    print(f"You have entered {_char}")
 
-    if character[0].isalpha():
-        print(character[0] + " is an alphabet.")
-
-    elif character[0].isdigit():
-        print(character[0] + " is a digit.")
-
+    if _char[0].isalpha():
+        print("Alphabet")
+    elif _char[0].isdigit():
+        print("Digit")
     else:
-        print(character[0] + " is a special character.")
+        print("Special character.")
 
 
 main()

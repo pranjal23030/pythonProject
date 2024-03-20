@@ -13,8 +13,5 @@ def main():
         root2 = (-b - disc_root) / (2 * a)
         print("\n The solutions are: ", root1, root2)
 
-    else:
-        print("Hello Bro")
-
 
 main()

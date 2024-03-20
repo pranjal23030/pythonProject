@@ -12,21 +12,11 @@
 # With recursion
 
 def factorial(n):
-    if n < 2:
+    if n == 0:
         return 1
     else:
         return n * factorial(n - 1)
 
 
-print(factorial(5))
-
-
-# Sum of Positive Integers
-def calc_sum(n):
-    if n < 2:
-        return n
-    else:
-        return n + calc_sum(n - 1)
-
-
-print(calc_sum(5))
+result = factorial(5)
+print(result)

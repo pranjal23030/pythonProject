@@ -1,13 +1,14 @@
 def main():
-    more_data = 'yes'
-    total = 0.0
+    print("This programs find the average of the numbers using an indefinite loop")
+    wanna_continue = "yes"
+    sum = 0.0
     count = 0
-    while more_data[0] == 'y':
-        x = eval(input("Enter a number >> "))
-        total = total + x
-        count = count + 1
-        more_data = input("Do you have more numbers (yes or no) ? ").lower()
-    print("\n The average of the numbers is", total / count)
+    while wanna_continue[0] == 'y':
+        number = eval(input("Enter a number: "))
+        sum += number
+        count += 1
+        wanna_continue = input("Do you want to continue? ").lower()
+    print("Average: ", sum / count)
 
 
 main()

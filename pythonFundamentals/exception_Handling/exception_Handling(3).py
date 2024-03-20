@@ -2,7 +2,7 @@ import math
 
 
 def main():
-    print("This program fins the real solutions to a quadratic equation")
+    print("This program finds the real solutions to a quadratic equation")
 
     a, b, c = eval(input("Please enter the coefficients: (a,b,c):  "))
     discrim = b * b - 4 * a * c

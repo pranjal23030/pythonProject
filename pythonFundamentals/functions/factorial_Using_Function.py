@@ -1,10 +1,9 @@
-def factorial(n):
-    print("This program prints the factorial of ", n)
-    result = 1  # addition ma 0 multiplication ma 1
+def factorial_finder(n):
+    total = 1
     for i in range(1, n + 1):
-        result = result * i
-    return result
+        total *= i
+    print("The factorial of a given number is:", total)
 
 
-value = factorial(5)
-print("The factorial of a number is ", value)
+number = eval(input('Enter a number of which you want to find the factorial of: '))
+factorial_finder(number)

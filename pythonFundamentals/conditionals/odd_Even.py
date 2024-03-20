@@ -1,10 +1,13 @@
-# n = eval(input("Enter a number: "))
+# def main():
+#     n = eval(input("Enter a number: "))
 #
-# if n % 2 == 0:
-#     print("Even")
+#     if n % 2 == 0:
+#         print(f"The entered number {n} is even.")
+#     else:
+#         print("Odd")
 #
-# else:
-#     print("Odd")
+#
+# main()
 
 
 def is_even(n):
@@ -14,4 +17,5 @@ def is_even(n):
         print("Odd")
 
 
-is_even(7)
+number = eval(input("Enter a number: "))
+is_even(number)
