@@ -1,25 +1,34 @@
-# def find_factorial(n):
-#     """
-#     Computes the factorial of a given number
+# from prettytable import PrettyTable
 #
-#     Usage examples:
-#     >>> find_factorial(5)
-#     'The factorial of 5 is 120'
-#     >>> find_factorial(4)
-#     'The factorial of 4 is 24'
-#     """
+# myTable = PrettyTable(["Student Name", "Class", "Section", "Percentage"])
 #
-#     total = 1
-#     for i in range(1, n + 1):
-#         total = total * i
-#     output = f"The factorial of {n} is {total}"
-#     return output
+# myTable.add_row(['Pranjal', '12', 'Mardi', '69%'])
+# print(myTable)
 
-s = "apple orange grapes cat"
-l = s.split()
-print(l)
-print(len(l))
+class Car:
+    def __init__(self, w, d):
+        self.wheels = w
+        self.doors = d
+        self.color = ""
 
-l_new = s.split(",")
-print(l_new)
-print(len(l_new))
+    def paint(self, c):
+        self.color = c
+
+    def __eq__(self, other):
+        if self.wheels == other.wheels and \
+                self.color == other.color and \
+                self.doors == other.doors:
+            return True
+        else:
+            return False
+
+    def __str__(self):
+        return f"Wheels:{self.wheels}\ndoors:{self.doors}\nColor:{self.color}"
+
+
+mycar = Car(4, 2)
+mycar.paint("red")
+print(mycar)
+yourcar = Car(4, 2)
+print(mycar == yourcar)
+print(yourcar)
